@@ -549,7 +549,6 @@ a {
   min-width: 264px;
   min-height: 40px;
   flex-shrink: 0;
-  padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--color-white);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
