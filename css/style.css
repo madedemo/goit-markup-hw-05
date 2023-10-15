@@ -603,7 +603,7 @@ a {
 
 /* ========================+modal======================*/
 
-.backdrop {
+.modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -614,13 +614,13 @@ a {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .backdrop.is-hidden {
+.modal.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-} */
+}
 
-.modal {
+.modal-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -678,9 +678,6 @@ a {
   text-align: center;
   margin-bottom: 16px;
   display: block;
-}
-
-.modal-form {
 }
 
 .modal-wrapper {
@@ -824,5 +821,5 @@ a {
 
 .modal-button-submit:hover,
 .modal-button-submit:focus {
-  background-color: var(--color-ocean);
+  background-color: #404bbf;
 }
